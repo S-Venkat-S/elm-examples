@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "api": "node api.js",
     "build": "webpack",
-    "start": "webpack-dev-server --port 8080"
+    "client": "webpack-dev-server --port 8080",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "dependencies": {
     "css-loader": "^0.28.7",
     "elm-webpack-loader": "^4.3.1",
+    "express": "^4.15.4",
     "file-loader": "^0.11.2",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
